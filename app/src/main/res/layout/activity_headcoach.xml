@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/coach_scroll"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/biru_muda"
+    tools:context=".HeadCoachActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:gravity="center_horizontal">
+
+        <!-- ========================= -->
+        <!-- Judul Utama -->
+        <!-- ========================= -->
+        <TextView
+            android:id="@+id/coach"
+            style="@style/TextAppearance.Material3.TitleLarge"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="12dp"
+            android:gravity="center"
+            android:text="COACH"
+            android:textColor="@color/black"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:background="@color/white"
+            android:elevation="4dp"
+            android:layout_marginBottom="16dp" />
+
+        <!-- ========================= -->
+        <!-- Foto Pelatih -->
+        <!-- ========================= -->
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            app:cardCornerRadius="100dp"
+            app:cardElevation="4dp"
+            android:layout_marginBottom="12dp">
+
+            <ImageView
+                android:id="@+id/img_coach"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                android:src="@drawable/coach"
+                android:contentDescription="@string/coach" />
+        </com.google.android.material.card.MaterialCardView>
+
+        <!-- ========================= -->
+        <!-- Informasi Umum -->
+        <!-- ========================= -->
+        <TextView
+            android:id="@+id/tv_coach_name"
+            android:text="@string/coach"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="@color/pisa_blue"
+            android:gravity="center"
+            android:layout_marginBottom="6dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/tv_tempat"
+            android:text="@string/tempat_lahir"
+            android:textSize="15sp"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:layout_marginBottom="2dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/tv_tanggal"
+            android:text="@string/tanggal_lahir"
+            android:textSize="15sp"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:layout_marginBottom="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <!-- ========================= -->
+        <!-- Kartu Riwayat Lengkap -->
+        <!-- ========================= -->
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/card_career"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="12dp"
+            app:cardElevation="8dp"
+            app:cardBackgroundColor="@color/white"
+            android:layout_marginBottom="16dp">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:padding="16dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <!-- ===== Data Dasar ===== -->
+                <TextView
+                    android:text="Informasi Umum"
+                    android:textColor="@color/pisa_blue"
+                    android:textStyle="bold"
+                    android:textSize="16sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp" />
+
+                <TextView
+                    android:id="@+id/tv_tinggi"
+                    android:text="@string/gilardino_tinggi"
+                    android:textColor="@color/black"
+                    android:textSize="14sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp" />
+
+                <TextView
+                    android:id="@+id/tv_posisi"
+                    android:text="@string/gilardino_posisi"
+                    android:textColor="@color/black"
+                    android:textSize="14sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp" />
+
+                <TextView
+                    android:id="@+id/tv_klub"
+                    android:text="@string/gilardino_klub"
+                    android:textColor="@color/black"
+                    android:textSize="14sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="12dp" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/biru_muda"
+                    android:layout_marginVertical="8dp" />
+
+                <!-- ===== Karier Junior ===== -->
+                <TextView
+                    android:text="@string/gilardino_judul_junior"
+                    android:textColor="@color/pisa_blue"
+                    android:textStyle="bold"
+                    android:textSize="16sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp" />
+
+                <TextView android:text="@string/gilardino_junior1" style="@style/TextAppearance.AppCompat.Body1" />
+                <TextView android:text="@string/gilardino_junior2" style="@style/TextAppearance.AppCompat.Body1" />
+                <TextView android:text="@string/gilardino_junior3" style="@style/TextAppearance.AppCompat.Body1" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/biru_muda"
+                    android:layout_marginVertical="8dp" />
+
+                <!-- ===== Karier Senior ===== -->
+                <TextView
+                    android:text="@string/gilardino_judul_senior"
+                    android:textColor="@color/pisa_blue"
+                    android:textStyle="bold"
+                    android:textSize="16sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp" />
+
+                <TextView android:text="@string/gilardino_senior1" style="@style/TextAppearance.AppCompat.Body1" />
+                <TextView android:text="@string/gilardino_senior2" style="@style/TextAppearance.AppCompat.Body1" />
+                <TextView android:text="@string/gilardino_senior3" style="@style/TextAppearance.AppCompat.Body1" />
+                <TextView android:text="@string/gilardino_senior4" style="@style/TextAppearance.AppCompat.Body1" />
+                <TextView android:text="@string/gilardino_senior5" style="@style/TextAppearance.AppCompat.Body1" />
+                <TextView android:text="@string/gilardino_senior6" style="@style/TextAppearance.AppCompat.Body1" />
+                <TextView android:text="@string/gilardino_senior7" style="@style/TextAppearance.AppCompat.Body1" />
+                <TextView android:text="@string/gilardino_senior8" style="@style/TextAppearance.AppCompat.Body1" />
+                <TextView android:text="@string/gilardino_senior9" style="@style/TextAppearance.AppCompat.Body1" />
+                <TextView android:text="@string/gilardino_senior10" style="@style/TextAppearance.AppCompat.Body1" />
+                <TextView android:text="@string/gilardino_senior11" style="@style/TextAppearance.AppCompat.Body1" />
+                <TextView android:text="@string/gilardino_senior12" style="@style/TextAppearance.AppCompat.Body1" />
+                <TextView android:text="@string/gilardino_senior13" style="@style/TextAppearance.AppCompat.Body1" />
+                <TextView android:text="@string/gilardino_total" style="@style/TextAppearance.AppCompat.Body1" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/biru_muda"
+                    android:layout_marginVertical="8dp" />
+
+                <!-- ===== Tim Nasional ===== -->
+                <TextView
+                    android:text="@string/gilardino_timnas_judul"
+                    android:textColor="@color/pisa_blue"
+                    android:textStyle="bold"
+                    android:textSize="16sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp" />
+
+                <TextView android:text="@string/gilardino_timnas1" style="@style/TextAppearance.AppCompat.Body1" />
+                <TextView android:text="@string/gilardino_timnas2" style="@style/TextAppearance.AppCompat.Body1" />
+                <TextView android:text="@string/gilardino_timnas3" style="@style/TextAppearance.AppCompat.Body1" />
+                <TextView android:text="@string/gilardino_timnas4" style="@style/TextAppearance.AppCompat.Body1" />
+                <TextView android:text="@string/gilardino_timnas5" style="@style/TextAppearance.AppCompat.Body1" />
+                <TextView android:text="@string/gilardino_timnas6" style="@style/TextAppearance.AppCompat.Body1" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/biru_muda"
+                    android:layout_marginVertical="8dp" />
+
+                <!-- ===== Karier Pelatih ===== -->
+                <TextView
+                    android:text="@string/gilardino_pelatih_judul"
+                    android:textColor="@color/pisa_blue"
+                    android:textStyle="bold"
+                    android:textSize="16sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp" />
+
+                <TextView android:text="@string/gilardino_pelatih1" style="@style/TextAppearance.AppCompat.Body1" />
+                <TextView android:text="@string/gilardino_pelatih2" style="@style/TextAppearance.AppCompat.Body1" />
+                <TextView android:text="@string/gilardino_pelatih3" style="@style/TextAppearance.AppCompat.Body1" />
+                <TextView android:text="@string/gilardino_pelatih4" style="@style/TextAppearance.AppCompat.Body1" />
+                <TextView android:text="@string/gilardino_pelatih5" style="@style/TextAppearance.AppCompat.Body1" />
+
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+        <!-- ========================= -->
+        <!-- Tombol Back -->
+        <!-- ========================= -->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_back_coach"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:backgroundTint="@color/pisa_blue"
+            android:text="@string/back"
+            android:textColor="@color/white"
+            app:cornerRadius="12dp" />
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="pisa_blue">#0033A0</color>
+    <color name="pisa_gold">#FFD700</color>
+
+
+    <color name="biru">#2196F3</color>     <!-- Biru terang -->
+    <color name="merah">#F44336</color>    <!-- Merah terang -->
+    <color name="kuning">#FFEB3B</color>   <!-- Kuning cerah -->
+    <color name="hijau">#4CAF50</color>    <!-- Hijau segar -->
+
+    <!-- Versi Gelap -->
+    <color name="biru_gelap">#0D47A1</color>
+    <color name="merah_gelap">#B71C1C</color>
+    <color name="kuning_gelap">#FBC02D</color>
+    <color name="hijau_gelap">#1B5E20</color>
+
+    <!-- Versi Lembut (Pastel) -->
+    <color name="biru_muda">#BBDEFB</color>
+    <color name="merah_muda">#FFCDD2</color>
+    <color name="kuning_muda">#FFF9C4</color>
+    <color name="hijau_muda">#C8E6C9</color>
+
+</resources>

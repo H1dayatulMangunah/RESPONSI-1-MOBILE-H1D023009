@@ -1,0 +1,16 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!--
+        Base application theme.
+        Parent "Theme.Material3.DayNight.NoActionBar" adalah tema modern yang:
+        - Mendukung komponen Material Design 3 (seperti MaterialCardView).
+        - Secara otomatis beralih antara mode terang (Day) dan gelap (Night).
+        - Menghilangkan ActionBar default agar Anda bisa menggunakan Toolbar kustom.
+    -->
+    <style name="Base.Theme.Responsi1MobileH1D023009" parent="Theme.Material3.DayNight.NoActionBar">
+
+    </style>
+
+    <!-- Tema final aplikasi yang mewarisi dari tema dasar. -->
+    <style name="Theme.Responsi1MobileH1D023009" parent="Base.Theme.Responsi1MobileH1D023009" />
+
+</resources>

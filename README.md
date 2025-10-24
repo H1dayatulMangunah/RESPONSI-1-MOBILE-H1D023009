@@ -14,4 +14,5 @@
 
 Video demo aplikasi dapat dilihat pada file berikut:  
 
-![Demo aplikasi](assets/[Demo%20Tugas%203-Screen%20Recording%202025-09-28%20215031.gif](https://github.com/H1dayatulMangunah/RESPONSI-1-MOBILE-H1D023009/blob/master/README.md))
+[![Demo aplikasi](https://img.icons8.com/?size=512&id=59710&format=png)](https://drive.google.com/file/d/1ZRDVAKymfl1m3hmZhS1OaIU802zpDEB8/view?usp=sharing)
+
